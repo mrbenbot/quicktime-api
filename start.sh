@@ -1,0 +1,1 @@
+osascript -e 'tell application "QuickTime Player" to activate' -e 'tell application "QuickTime Player" to start (new movie recording)'
