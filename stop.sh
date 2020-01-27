@@ -1,1 +1,1 @@
-osascript stop_and_save_quicktime.scpt $1
+osascript stop.scpt
