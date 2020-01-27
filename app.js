@@ -9,8 +9,7 @@ app.get("/start", (req, res) => {
   res.send({ success: true, message: "recording has started" });
 });
 app.get("/stop/:name", (req, res) => {
-  const { name } = req.params;
-  shell.exec(`./stop.sh ${name}.mov`);
+  shell.exec(`./stop.sh`);
   res.send({ success: true, message: `${name} recording has finished` });
 });
 
